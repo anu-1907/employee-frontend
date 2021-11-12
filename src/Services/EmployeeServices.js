@@ -1,7 +1,6 @@
 import axios from 'axios'
 
-const EMPLOYEE_API_BASE_URL= "http://localhost:8080/api/v1/employees"
-
+const EMPLOYEE_API_BASE_URL= "http://employee-management-system-proj-git-anupammishra-1-dev.apps.sandbox.x8i5.p1.openshiftapps.com/api/v1/employees"
 class EmployeeServices{
 
     getEmployee(){
